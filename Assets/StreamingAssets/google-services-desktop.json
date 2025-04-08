@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "215302095945",
+    "project_id": "gleys-454301",
+    "storage_bucket": "gleys-454301.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215302095945:android:58121b12861e0cd38d2b98",
+        "android_client_info": {
+          "package_name": "com.TOPHE.Gley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215302095945-pi6f6mdg5vepgg38iqr1poa307u47k00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.TOPHE.Gley",
+            "certificate_hash": "b30a85bb34b037c2c30ca0b1e6f6398155b1b0be"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoRJxTfAhv2z97uAIrJnXBEE9rrTHKknU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

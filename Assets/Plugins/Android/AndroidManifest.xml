@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.TOPHE.Gley"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+	<!-- Izin yang dibutuhkan -->
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+	<application>
+
+		<!-- Activity utama Unity -->
+		<activity android:name="com.unity3d.player.UnityPlayerActivity"
+            android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<!-- Activity untuk menangani notifikasi -->
+		<activity android:name="com.unity.androidnotifications.UnityNotificationActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+		<!-- Firebase Messaging Service -->
+		<service android:name="com.google.firebase.messaging.MessageForwardingService"
+     android:permission="android.permission.BIND_JOB_SERVICE"
+     android:exported="false"
+	 tools:replace="android:exported">
+		</service>
+
+	</application>
+</manifest>
